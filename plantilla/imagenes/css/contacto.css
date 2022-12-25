@@ -1,0 +1,69 @@
+@import "formularios.css";
+
+/*Secciones*/
+
+.direccion {
+  text-align: center;
+}
+
+.direccion h1 {
+  font-size: 40px;
+}
+
+.izquierda {
+  width: 50%;
+  height: 30vh;
+  padding-bottom: 30px;
+  float: left;
+  justify-content: space-around;
+
+}
+
+.derecha {
+  height: 30vh;
+  width: 50%;
+  padding-bottom: 30px;
+  float: right;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 980px) {
+
+  .izquierda {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .derecha {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+}
+
+/*Mapa*/
+
+iframe {
+  border-radius: 3px;
+}
+
+/*Formulario*/
+
+.form_contacto h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+/*Botones*/
+
+.boton button {
+  color: #333;
+  background-color: white;
+  border: 1px solid #333;
+}
+
+.boton button:hover {
+  color: white;
+  background-color: #333;
+}
